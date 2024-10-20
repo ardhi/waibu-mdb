@@ -1,0 +1,33 @@
+{
+  "name": "waibu-mdb",
+  "version": "1.0.0",
+  "description": "MDB suport for Waibu MPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/waibu-mdb.git"
+  },
+  "keywords": [
+    "mdb",
+    "waibu",
+    "web",
+    "webserver",
+    "bajo",
+    "framework",
+    "fastify",
+    "modular"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/waibu-mdb/issues"
+  },
+  "homepage": "https://github.com/ardhi/waibu-mdb#readme",
+  "dependencies": {
+    "mdb-ui-kit": "^8.0.0"
+  }
+}
