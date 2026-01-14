@@ -1,22 +1,48 @@
 # waibu-mdb
 
-Plugin name: **waibuMdb**, alias: **wmdb**
-
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ardhi/waibu-mdb) ![NPM Version](https://img.shields.io/npm/v/waibu-mdb)
 
-> <br />**Attention**: I do NOT accept any pull request at the moment, thanks!<br /><br />
+> <br />**Attention**: I do NOT accept any pull request at the moment, thanks! ([Why?](wiki/CONTRIBUTING.md))<br /><br />
 
-MDB support for [Waibu MPA](https://github.com/ardhi/waibu-mpa)
+MDB theme for [Waibu Web Framework](https://github.com/ardhi/waibu)
 
 ## Installation
 
-Goto your ```<bajo-base-dir>``` and type:
+First, go to your ```{app-dir}``` and run the following command in your terminal:
 
 ```bash
-$ npm install waibu-mdb
+$ npm install waibu-mdb waibu-mpa waibu-bootstrap waibu
 ```
 
-Now open your ```<bajo-data-dir>/config/.plugins``` and put ```waibu-mdb``` in it.
+Next, open the file located at ```{data-dir}/config/.plugins``` and add ```waibu-mdb``` , ```waibu-mpa```, ```waibu-bootstrap``` and ```waibu```
+
+## Documentations
+
+- [Config Object](wiki/CONFIG.md)
+- [API](https://ardhi.github.io/waibu-mdb)
+- [Contributing](wiki/CONTRIBUTING.md)
+
+## Hire Me
+
+If you have a Bajo Framework-based project and need a professional service or assistance, please <a href="https://github.com/ardhi#professional-service">click here</a>. I'd be happy to work on it at a competitive price and with fast turnaround!
+
+## Support Me
+
+Please support me using the channels below. Your donation will motivate me to work faster and more diligently on future development.
+
+<a href="https://github.com/sponsors/ardhi">
+  <img src="https://img.shields.io/badge/Github-slategrey?style=flat&logo=github" height="50">
+</a>
+<a href="https://www.patreon.com/bajoframework">
+  <img src="https://img.shields.io/badge/Patreon-f2c3b2?style=flat&logo=patreon" height="50">
+</a>
+<a href="https://www.paypal.com/ncp/payment/EWLERL7SCUU64">
+  <img src="https://img.shields.io/badge/Paypal-mdbe?style=flat&logo=paypal" height="50">
+</a>
+
+<p>
+<div><img alt="bc1qwtv78cwp9ef8hnqaw84fxg5856l0pggqe32g6f" src="docs/static/bitcoin.jpeg" width="150" height="150" /><br>Bitcoin</div>
+</p>
 
 ## License
 

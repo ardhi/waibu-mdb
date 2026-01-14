@@ -1,12 +1,20 @@
 {
   "name": "waibu-mdb",
-  "version": "1.1.0",
+  "version": "2.1.1",
   "description": "MDB suport for Waibu MPA",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
+  "bajo": {
+    "type": "plugin",
+    "alias": "wmdb",
+    "dependencies": [
+      "waibu-mpa",
+      "waibu-bootstrap"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ardhi/waibu-mdb.git"
@@ -28,6 +36,6 @@
   },
   "homepage": "https://github.com/ardhi/waibu-mdb#readme",
   "dependencies": {
-    "mdb-ui-kit": "^8.0.0"
+    "mdb-ui-kit": "^9.3.0"
   }
 }
