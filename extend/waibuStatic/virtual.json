@@ -1,4 +1,7 @@
 [{
   "prefix": "mdb",
   "root": "mdb-ui-kit:"
+}, {
+  "prefix": "roboto",
+  "root": "@fontsource/roboto:"
 }]

@@ -1,6 +1,6 @@
 {
   "name": "waibu-mdb",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "MDB suport for Waibu MPA",
   "main": "index.js",
   "scripts": {
@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/ardhi/waibu-mdb#readme",
   "dependencies": {
+    "@fontsource/roboto": "^5.2.9",
     "mdb-ui-kit": "^9.3.0"
   }
 }
