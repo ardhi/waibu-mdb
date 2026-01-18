@@ -1,6 +1,6 @@
 {
   "name": "waibu-mdb",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "MDB suport for Waibu MPA",
   "main": "index.js",
   "scripts": {
