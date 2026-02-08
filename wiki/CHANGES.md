@@ -1,5 +1,9 @@
 # Changes
 
+## 2026-02-09
+
+- [2.2.0] Start using simplified ```webAppCtx```
+
 ## 2026-01-18
 
 - [2.1.3] Dark mode handling

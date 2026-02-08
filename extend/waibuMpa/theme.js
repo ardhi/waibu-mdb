@@ -1,4 +1,4 @@
-async function theme (ctx) {
+async function theme () {
   return {
     name: 'mdb',
     css: [
