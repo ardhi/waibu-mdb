@@ -1,5 +1,9 @@
 # Changes
 
+## 2026-04-21
+
+- [2.2.1] Bug fix in ```FormSelectExt``` widget
+
 ## 2026-02-09
 
 - [2.2.0] Start using simplified ```webAppCtx```
