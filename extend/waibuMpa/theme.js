@@ -9,7 +9,10 @@ async function theme () {
       'waibuMdb.virtual:/roboto/700.css',
       '$waibuMdb.asset:/css/mdb.css'
     ],
-    scripts: ['waibuMdb.virtual:/mdb/js/mdb.umd.min.js'],
+    scripts: [{
+      src: 'waibuMdb.virtual:/mdb/js/mdb.umd.min.js',
+      defer: true
+    }],
     cssExcludes: ['waibuBootstrap.virtual:/bootstrap/css/bootstrap.min.css'],
     scriptsExcludes: ['waibuBootstrap.virtual:/bootstrap/js/bootstrap.bundle.min.js'],
     links: [],
